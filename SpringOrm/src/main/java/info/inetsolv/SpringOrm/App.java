@@ -22,7 +22,8 @@ public static void main(String[] args) {
 	Employee employee = dao.findEmployee(1);
 	
 	System.out.println(employee.getName());
-	
+	  System.out.println("no reecords");
+	  System.out.println("hi");
 	
 	((AbstractApplicationContext)container).close();
 }
