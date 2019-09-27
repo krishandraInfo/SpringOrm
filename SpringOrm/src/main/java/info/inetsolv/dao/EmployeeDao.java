@@ -21,7 +21,7 @@ public class EmployeeDao {
 		hibernateTemplate.save(emp);
 	}
 	
-	@Transactional
+	
 	public Employee findEmployee(Integer eno) {
 		
 	 employee = hibernateTemplate.get(Employee.class, eno);
